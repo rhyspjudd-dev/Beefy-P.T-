@@ -1,0 +1,39 @@
+.ico {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.logo {
+    height: 120px;
+    width: 200px;
+    color: $white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+.arrow-down {
+    background: url('../images/icon-arrow-down.svg') no-repeat;
+    height: 120px;
+    width: 50px;
+    margin: auto;
+    @media (min-width: 768px) { 
+        margin-top: 150px;
+     }
+}
+
+// Social 
+
+.fb {
+    background: url('../images/icon-facebook.svg') center no-repeat; 
+}
+.ig {
+    background: url('../images/icon-instagram.svg') center no-repeat; 
+}
+.pi {
+    background: url('../images/icon-pinterest.svg') center no-repeat; 
+}
+.tw {
+    background: url('../images/icon-twitter.svg') center no-repeat; 
+}
