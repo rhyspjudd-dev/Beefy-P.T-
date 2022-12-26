@@ -705,6 +705,7 @@ a.grow-up:hover::before {
     right: 0;
     display: inline-flex;
     justify-content: flex-end;
+    padding-right: unset;
     width: 100%;
   }
   #menu ul.navlinks li {
