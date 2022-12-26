@@ -1,9 +1,14 @@
 footer {
     background: $cyan;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
     height: 250px;
+
+    a {
+        display: block;
+        text-align: center;
+        color: $grayishBlue;
+    }
 
     .logo {
         height: 30px;

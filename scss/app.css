@@ -343,10 +343,14 @@ header .arrow-down {
 
 footer {
   background: hsl(168deg, 34%, 41%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
   height: 250px;
+}
+footer a {
+  display: block;
+  text-align: center;
+  color: hsl(210deg, 4%, 67%);
 }
 footer .logo {
   height: 30px;
@@ -620,6 +624,10 @@ button.btn-underline-pink::before {
   background-color: hsl(7deg, 99%, 70%);
 }
 
+button.btn-underline-white::before {
+  background-color: hsl(51deg, 100%, 49%);
+}
+
 a.grow-up {
   text-decoration: none;
   color: #18272F;
@@ -689,6 +697,7 @@ a.grow-up:hover::before {
   font-size: 1.2rem;
   color: white;
   line-height: 3.1rem;
+  padding-right: 8%;
 }
 @media (min-width: 1200px) {
   #menu ul.navlinks {
@@ -841,7 +850,7 @@ a.grow-up:hover::before {
 
 .logo {
   height: 120px;
-  width: 200px;
+  width: 186px;
   color: #FFFCF9;
   font-size: 1.2rem;
   text-transform: uppercase;
